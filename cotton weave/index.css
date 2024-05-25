@@ -1,0 +1,106 @@
+@font-face {
+               font-family: gilroy;
+               src: url(/Gilroy-Medium.ttf);
+}
+
+
+
+*{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family: gilroy;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+               height: 100%;
+               width: 100%;
+               padding: 7vw 0vw 0 0 ;
+               display: flex;
+}
+#lft{
+               width: 50%;
+               /* background-color: red; */
+               height: 100%;
+               display: flex;
+               padding: 0 0 4vw 10vw ;
+               flex-direction: column;
+               justify-content: space-between;
+}
+#lft>h1{
+               font-weight: 100;
+               line-height: 1;
+               font-size: 7rem;
+}
+#color{
+               padding: 0.5vw 1vw;
+               width: fit-content;
+               border-radius: 20px;
+
+               border: 1px solid rgba(51, 52, 52, 0.352);
+               display: flex;align-items: center;
+}
+.browncircle{
+               width: 10px;
+               height: 10px;
+               border-radius: 50%;
+               margin-left: 15px;
+               background-color: rgb(219, 133, 133);
+}
+.purplecircle{
+               width: 10px;
+               height: 10px;
+               margin-left: 5px;
+               border-radius: 50%;
+               background-color: rgb(84, 62, 62);
+}
+.details{
+               margin-top: 50px;
+               margin-bottom: 20px;
+               text-transform: capitalize;font-size: 2rem;
+}
+.p{
+               width: 85%;
+}
+#rght{
+               width: 50%;
+               height: 100%;
+               padding: 0 16vw 0 2vw;
+}
+.rTop{
+               width: 100%;
+               display: flex;align-items: center;justify-content: space-between;
+}
+.rbottom{
+               width: 100%;
+               margin-top: 3px;
+               position: relative;
+               height: 96.4%;
+               background-image: url("/cloud.jpg");
+               background-size: cover;
+               background-position: center;
+}
+.bigCircle{
+               width: 200px;
+               height: 200px;
+               border-radius: 50%;
+               background-color: #000;
+               color: #fff;
+               display: flex;
+               position: absolute;
+               top: 25%;
+               left: 85%;
+               align-items: center;justify-content: center;
+}
+.standing{
+               font-size: 2rem;
+               position: absolute;
+               top: 70%;
+               font-weight: 900;
+               letter-spacing: 1px;
+               left: -31%;
+               transform: rotate(-90deg);
+}

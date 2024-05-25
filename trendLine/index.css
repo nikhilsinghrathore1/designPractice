@@ -1,0 +1,25 @@
+@font-face {
+               font-family: gilroy;
+               src: url(Gilroy-Medium.ttf);
+}
+
+*{
+               box-sizing: border-box;
+               font-family: gilroy;
+               /* letter-spacing: 20px; */
+
+}
+#hero-main::-webkit-scrollbar{
+               height: 10px;
+               /* color: red; */
+               /* background-color: yellow; */
+}
+#hero-main::-webkit-scrollbar-thumb {
+               background: #EC7850; 
+               border-radius: 10px;
+            
+}
+.custom-height{
+               object-position: 0 45%;
+}
+             
